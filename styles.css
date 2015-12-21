@@ -1,0 +1,151 @@
+*{
+	background-color:#fff;
+	overflow:hidden;
+}
+
+body, a{
+	font-family: arial, sans-serif;
+	padding-right: 25px;
+}
+
+body{
+	padding: 0;
+	border-spacing: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#navbar{
+	display: inline block;
+	float: right;
+}
+
+#navbar img{
+	margin: 10px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 9px;
+	right: 1.5%;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 24px;
+	right: 9%;
+    overflow: hidden;
+    background-color: #fff;
+    word-spacing: -9px;
+    font-size: 10px;
+}
+
+li{
+	display: inline;
+	background-color: #fff;
+
+}
+
+#google-logo{
+	height: 233px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 89px;
+}
+
+#google-logo, #logo-img{
+    padding-top: 55px;
+    width: 272px;
+}
+
+#search-box {
+	height: 38px;
+	width: 584px;
+	border: 1px solid #d9d9d9;
+	display: block;
+    margin-left: 29.2%;
+    margin-right: auto;
+    margin-top: -57px;
+}
+
+#search-box img{
+	float: right;
+	margin: 5px 5px 0 0;
+}
+
+#wrapper{
+	display: block;
+	margin-top: 31px;
+	text-align: center;
+}
+
+.btn-style{
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-size: 13px;
+    font-weight: bold;
+
+}
+
+#search-btn{
+	height: 34px;
+	width: 123px;
+	margin-left: 40%;
+	float: left;
+
+}
+
+#lucky-btn{
+	height: 34px;
+	width: 139px;
+	margin-left: 49.8%;
+	overflow: hidden;
+
+}
+
+.btn-text{
+	margin-top: 9px;
+	display: absolute;
+	background-color: #f2f2f2;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 39px;
+	border-top: 1px solid #d9d9d9;
+	color: #666;
+	font-size: small;
+}
+
+#foot-txt-left{
+	background-color: #f2f2f2;
+	float: left;
+	margin: 12px 0px 13px 30px;
+}
+
+#foot-txt-right{
+	background-color: #f2f2f2;
+	float: right;
+	margin: 12px 0px 12px 0px;
+}
+
+#footer a:-webkit-any-link{
+	text-decoration: none;
+	color: #666666;
+	background-color: #f2f2f2;
+}
+
+#navbar a:-webkit-any-link{
+	text-decoration: none;
+	color: #666666;
+	font-size: small;
+}
+
